@@ -18,7 +18,7 @@
 
 	<header>
 		<div class="container">
-		<nav class="navbar navbar-expand-lg">
+		<nav class="navbar navbar-expand-lg navbar-light">
 		  <div class="container-fluid">
 
 		  	<!-- logo -->
@@ -30,13 +30,13 @@
 		    <!-- toogler -->
 
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_collapse" aria-controls="nav_collapse" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
+		      <span class="navbar-toggler-icon toggler"></span>
 		    </button>
 
 		    <!-- menu -->
 
-		    <div class="collapse navbar-collapse" id="nav_collapse">
-		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		    <div class="collapse navbar-collapse menu" id="nav_collapse">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
 		        <li class="nav-item">
 		          <a class="nav-link" aria-current="page" href="#">Features</a>
 		        </li>
@@ -61,38 +61,148 @@
 	<section class="banner">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-lg-5">
-					<h2 class="c_title">
-						Inspire your inspiration
-					</h2>
-					<h5 class="b_stitle">
-						Simple to use for your app, products showcase and your inspiration
-					</h5>
-					<p class="c_para">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
-					</p>
-					<div class="operating_systems">
-						<ul class="list-inline">
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="fa-brands fa-apple icons"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="fa-brands fa-android icons"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="fa-brands fa-windows icons"></i>
-								</a>
-							</li>
-						</ul>
+					<!-- carousel -->
+				<div id="c_ind" class="carousel slide" data-bs-ride="carousel">
+					<!-- indicators -->
+				  <div class="carousel-indicators caro_btn">
+				    <button type="button" data-bs-target="#c_ind" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#c_ind" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#c_ind" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  </div>
+
+				  <div class="carousel-inner">
+
+				  	<!-- item starts -->
+
+				   <div class="carousel-item active opacity">
+					   	<div class="row">
+							<div class="col-lg-5 col-md-7">
+								<div class="slider_texts">
+									<h2 class="c_title">
+									Inspire your inspiration
+									</h2>
+									<h5 class="b_stitle">
+										Simple to use for your app, products showcase and your inspiration
+									</h5>
+									<p class="c_para">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+									</p>
+								</div>
+							<div class="operating_systems">
+								<ul class="list-inline">
+									<li class="list-inline-item">
+										<a href="#">
+											<i class="fa-brands fa-apple icons"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#">
+											<i class="fa-brands fa-android icons"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#">
+											<i class="fa-brands fa-windows icons"></i>
+										</a>
+									</li>
+								</ul>
+						</div>
+						</div>
+						<div class="offset-lg-2 col-md-5 text-center">
+							<img class="img-fluid mobile d-none d-md-block" src="images/mobile.png" alt="Tinyone">
+						</div>
 					</div>
 				</div>
-				<div class="offset-2 col-lg-5">
-					<img class="img-fluid mobile" src="images/mobile.png" alt="Tinyone">
+
+				  	<!-- item ends -->
+				  	<!-- item starts -->
+
+			   <div class="carousel-item opacity">
+				   	<div class="row">
+						<div class="col-lg-5 col-md-7">
+							<div class="slider_texts">
+								<h2 class="c_title">
+								Inspire your inspiration
+								</h2>
+								<h5 class="b_stitle">
+									Simple to use for your app, products showcase and your inspiration
+								</h5>
+								<p class="c_para">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+								</p>
+							</div>
+						<div class="operating_systems">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-apple icons"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-android icons"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-windows icons"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						</div>
+						<div class="offset-lg-2 col-md-5 text-center">
+							<img class="img-fluid mobile d-none d-md-block" src="images/mobile.png" alt="Tinyone">
+						</div>
+					</div>
+				</div>
+
+				  	<!-- item ends -->
+				  	<!-- item starts -->
+
+		 		<div class="carousel-item opacity">
+				   	<div class="row">
+						<div class="col-lg-5 col-md-7">
+							<div class="slider_texts">
+								<h2 class="c_title">
+								Inspire your inspiration
+								</h2>
+								<h5 class="b_stitle">
+									Simple to use for your app, products showcase and your inspiration
+								</h5>
+								<p class="c_para">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+								</p>
+							</div>
+						<div class="operating_systems">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-apple icons"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-android icons"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#">
+										<i class="fa-brands fa-windows icons"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						</div>
+						<div class="offset-lg-2 col-md-5 text-center">
+							<img class="img-fluid mobile d-none d-md-block" src="images/mobile.png" alt="Tinyone">
+						</div>
+					</div>
+				</div>
+
+				  	<!-- item ends -->
+
+
 				</div>
 			</div>
 		</div>
@@ -104,8 +214,8 @@
 
 	<section class="services">
 		<div class="container">
-			<div class="row s_titles">
-				<div class="col-lg-10 offset-1 text-center">
+			<div class="row s_titles justify-content-center">
+				<div class="col-lg-9 col-md-10 text-center">
 					<h2 class="c_title">
 						Tinyone features
 					</h2>
@@ -117,9 +227,9 @@
 			<div class="row">
 					<!-- card starts -->
 				<div class="col-lg-4 col-md-6">
-					<div class="card mb-lg-5 mb-3 service">
+					<div class="card mb-lg-5 mb-5 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-solid fa-mobile icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -135,7 +245,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="card mb-lg-5 mb-3 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-solid fa-vector-square icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -151,7 +261,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="card mb-lg-5 mb-3 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-solid fa-folder icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -167,7 +277,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="card mb-lg-5 mb-3 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-solid fa-code icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -183,7 +293,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="card mb-lg-5 mb-3 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-solid fa-envelope icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -199,7 +309,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="card mb-lg-5 mb-3 service">
 					    <div class="row g-0">
-						    <div class="col-md-4 text-end">
+						    <div class="col-md-4 text-end service_icons">
 						     	<i class="fa-regular fa-bookmark icons mt-3"></i>
 						    </div>
 						    <div class="col-md-8">
@@ -223,8 +333,8 @@
 
 	<section class="contact">
 		<div class="container">
-			<div class="row s_titles">
-				<div class="col-lg-10 offset-1 text-center">
+			<div class="row s_titles justify-content-center">
+				<div class="col-lg-9 col-md-10 text-center">
 					<h2 class="c_title contact_title">
 						Keep in touch with us
 					</h2>
@@ -233,15 +343,15 @@
 					</h5>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-10 offset-1">
+			<div class="row justify-content-center">
+				<div class="col-md-10">
 					<form class="row g-3">
 					  <div class="col-md-10">
 					    <label for="user_email" class="visually-hidden">Password</label>
-					    <input type="email" class="form-control input" id="user_email" placeholder="Enter your email to update">
+					    <input type="email" class="form-control user_email" id="user_email" name="user_email" placeholder="Enter your email to update">
 					  </div>
-					  <div class="col-auto">
-					    <button type="submit" class="btn btn-warning mb-3 button">SUBMIT</button>
+					  <div class="col-md-2">
+					    <button type="submit" class="btn btn-warning mb-3 button w-100">SUBMIT</button>
 					  </div>
 					</form>
 				</div>
@@ -275,7 +385,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-12 col-sm-8 col-md-6 col-lg-4">
 					<h5 class="f_address">
 						<address>
 							HALOVIETNAM LTD 66, Dang Van ngu, Dong DaHanoi, Vietnam
@@ -292,7 +402,7 @@
 						</a>
 					</h5>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
 					<ul>
 						<li class="f_links">
 							<a href="#">
@@ -311,7 +421,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-6 col-sm-4 pt-sm-4 pt-md-0 col-md-3 col-lg-2">
 					<ul>
 						<li class="f_links">
 							<a href="#">
@@ -335,7 +445,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-6 col-sm-4 pt-sm-4 pt-md-0 col-md-3 offset-md-6 offset-lg-0 col-lg-2">
 					<ul>
 						<li class="f_links">
 							<a href="#">
@@ -354,7 +464,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-6 col-sm-4 pt-sm-4 pt-md-0 col-md-3 col-lg-2">
 					<ul>
 						<li class="f_links">
 							<a href="#">

@@ -1,0 +1,133 @@
+
+	/*xs devices*/
+
+@media (max-width: 575.98px) { 
+	header ul li a{
+		padding-top: 3px;
+		font-size: 20px;
+		text-align: right;
+	}
+	.slider_texts {
+		margin-top: 10px;
+	}
+	.c_title {
+		padding-bottom: 10px;
+		font-size: 25px;
+	}
+	.s_title {
+		padding-bottom: 7px;
+		font-size: 18px;
+	}
+	.s_titles {
+		padding: 0 0 30px;
+	}
+	.operating_systems li {
+		padding-left: 15px;
+	}
+	.icons {
+		font-size: 35px;
+	}
+	.caro_btn {
+    	bottom: -80px;
+	}
+	.services {
+		padding: 40px 0;
+	}
+	.service {
+		text-align: center;
+	}
+	.service_icons {
+		text-align: center !important;
+	}
+	.contact {
+		padding: 30px 0;
+		padding-top: 50px;
+	} 
+	.f_address {
+		text-align: center;
+	}
+}
+	/*small devices*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	header ul li a{
+		padding-top: 3px;
+		font-size: 20px;
+		text-align: right;
+	}
+	.slider_texts {
+		margin-top: 10px;
+	}
+	.c_title {
+		padding-bottom: 10px;
+		font-size: 25px;
+	}
+	.s_title {
+		padding-bottom: 7px;
+		font-size: 18px;
+	}
+	.s_titles {
+		padding: 0 0 30px;
+	}
+	.operating_systems li {
+		padding-left: 15px;
+	}
+	.icons {
+		font-size: 35px;
+	}
+	.caro_btn {
+    	bottom: -80px;
+	}
+	.services {
+		padding: 40px 0;
+	}
+	.service {
+		text-align: center;
+	}
+	.service_icons {
+		text-align: center !important;
+	}
+	.contact {
+		padding: 30px 0;
+		padding-top: 50px;
+	} 
+	.f_address {
+		text-align: center;
+	}
+}
+
+
+	/*medium devices*/
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	header ul li a{
+		padding-top: 3px;
+		font-size: 20px;
+		text-align: right;
+	}
+	/*banner*/
+	.caro_btn {
+    	bottom: -70px;
+	}
+	.menu {
+		
+	}
+}
+
+	/*large devices*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+}
+
+	/*x-large devices*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	
+}
+
+	/*xx-large devices*/
+
+@media (min-width: 1400px) { 
+	
+}

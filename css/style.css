@@ -56,6 +56,11 @@ header ul li :last-child a{
 header ul li a:hover {
 	color: #ffffff !important;
 }
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+
 
 	/*header ends*/
 
@@ -64,7 +69,13 @@ header ul li a:hover {
 
 .banner {
 	background-color: #fcdb00;
-	padding-bottom: 70px;
+	padding-bottom: 90px;
+}
+.opacity {
+	animation: opacity 3s ease both;
+}
+.slider_texts {
+	margin-top: 100px;
 }
 .operating_systems {
 	padding-top: 10px;
@@ -78,18 +89,31 @@ header ul li a:hover {
 .icons {
 	font-size: 40px;
 	color: #010101;
+	transition: 0.3s;
+}
+.icons:hover {
+	transform: scale(0.7);
+}
+.caro_btn {
+    bottom: -50px;
+}
+.caro_btn [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
 	/*banner ends*/
 
 
-		/*services starts*/
+	/*services starts*/
 
 .services {
 	padding: 70px 0;
 }
 .service {
 	border: none;
+	cursor: grab;
 }
 .card_title {
 	font-size: 22px;
@@ -109,13 +133,13 @@ header ul li a:hover {
 .contact_title {
 	color: #fcdb00 !important;
 }
-form input {
+form .user_email {
 	color: #898989;
 }
-form input::placeholder {
+form .user_email::placeholder {
 	color: #898989;
 }
-.input:focus {
+.user_email:focus {
   color: #898989 !important;
   background-color: #fff;
   border: none !important;
@@ -181,3 +205,15 @@ footer {
 
 
 		/*footer ends*/
+
+
+			/*advance css*/
+
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

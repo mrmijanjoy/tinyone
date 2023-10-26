@@ -1,1 +1,1 @@
-https://mr-mijan-joy.github.io/tinyone/
+https://mrmijanjoy.github.io/tinyone/
